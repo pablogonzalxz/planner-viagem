@@ -16,7 +16,7 @@ class EmailToInviteRepository:
             """, (
                 email_infos["id"],
                 email_infos["trip_id"],
-                email_infos["email"],
+                email_infos["email"]
             )
         )
         self.__conn.commit()
